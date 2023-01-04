@@ -1,4 +1,4 @@
-安装编译
+1. 安装编译
 ```ssh
 git clone git@github.com:rudolphbrowne/dolphinscheduler.git
 
@@ -7,10 +7,13 @@ git clone git@github.com:rudolphbrowne/dolphinscheduler.git
 <!-- 打包位置：dolphinscheduler-dist/target/apache-dolphinscheduler-dev-SNAPSHOT-bin.tar.gz -->
 ```
 
-IDEA远程 dolphinscheduler-api 调试配置
+2. IDEA远程 dolphinscheduler-api 调试配置
 
 ```config
 配置debug参数：-Xdebug -Xrunjdwp:transport=dt_socket,address=8888,server=y,suspend=n
 ```
 
 ![](Snipaste_2023-01-01_18-08-07.png)
+
+3. 单独打包替换某一个 jar
+
